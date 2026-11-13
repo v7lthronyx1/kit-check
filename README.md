@@ -71,8 +71,8 @@ Termux رو از F-Droid یا گیت‌هاب خودش نصب کن. بعد:
 
 ```
 pkg install python curl
-curl -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py
-curl -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py.sha256
+curl -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py
+curl -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py.sha256
 sha256sum -c kit-check.py.sha256
 python kit-check.py links.txt
 ```
@@ -84,8 +84,8 @@ python kit-check.py links.txt
 پایتون رو از python.org نصب کن (تیک Add to PATH). بعد:
 
 ```
-curl.exe -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py
-curl.exe -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py.sha256
+curl.exe -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py
+curl.exe -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py.sha256
 Get-FileHash kit-check.py
 type kit-check.py.sha256
 py kit-check.py links.txt
@@ -96,8 +96,8 @@ py kit-check.py links.txt
 ### لینوکس و مک
 
 ```
-curl -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py
-curl -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py.sha256
+curl -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py
+curl -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py.sha256
 sha256sum -c kit-check.py.sha256        # macOS: shasum -a 256 -c kit-check.py.sha256
 python3 kit-check.py links.txt
 ```
@@ -147,8 +147,8 @@ python3 kit-check.py links.txt
 Download, checking the hash:
 
 ```
-curl -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py
-curl -fsSLO https://raw.githubusercontent.com/v74all/kit-check/v1.0.0/kit-check.py.sha256
+curl -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py
+curl -fsSLO https://raw.githubusercontent.com/w59520760-sketch/kit-check/v1.0.0/kit-check.py.sha256
 sha256sum -c kit-check.py.sha256
 ```
 
